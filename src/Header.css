@@ -1,0 +1,19 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #0d3b66;
+  color: white;
+}
+
+.header nav a {
+  margin-left: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,25 @@
+/* Services.css */
+.services {
+  padding: 80px 50px;
+  background-color: #f4f6f9;
+  text-align: center;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #e1e8ed;
+  padding: 30px;
+  border-radius: 10px;
+  width: 250px;
+  margin: 10px;
+}
+
+.card h3 {
+  color: #0055a5;
+}
