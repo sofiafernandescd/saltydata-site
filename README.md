@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# SaltyData — Brand & Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Website developed for **SaltyData**, a freelance initiative focused on connecting real-world data collection with analysis, modelling and AI.
 
-## Available Scripts
+[![Live Website](https://img.shields.io/badge/Live%20Website-SaltyData-0f766e?style=flat-square)](#)
+[![GitHub](https://img.shields.io/badge/Source-GitHub-181717?style=flat-square\&logo=github)](https://github.com/sofiafernandescd/saltydata-site)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This repository contains the website I designed and developed for **SaltyData**, my own freelancing brand.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The goal was to create a simple, credible web presence for a data-focused business without making it look like a generic software consultancy. The website presents SaltyData's positioning, services and approach to working with real-world data, with a visual identity built around the idea of **surfacing intelligence from reality**.
 
-### `npm test`
+The project combines **brand design, frontend development and content structuring** into a single small web project.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### What I wanted the website to communicate
 
-### `npm run build`
+* A data-oriented business grounded in real-world problems
+* A practical connection between **field data and analytical systems**
+* A local and approachable alternative to large consulting companies
+* A visual identity that could later grow with the business
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Landing page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![SaltyData website — landing page](./public/LP.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Services / positioning
 
-### `npm run eject`
+![SaltyData website — services](./public/Services.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Call to action
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![SaltyData website — cta](./public/CTA.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Brand
 
-## Learn More
+**SaltyData**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+A freelance initiative focused on data collection, analysis and applied AI/ML, with an emphasis on understanding the problem and the data before choosing the technology.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The visual identity uses a **wave/ocean-inspired concept** to represent the movement from physical reality and field observations towards structured data and actionable information.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Project status
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Active / evolving**
 
-### Making a Progressive Web App
+The website represents an early version of the SaltyData brand and may evolve alongside the business, including additional services, projects and case studies.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Sofia Fernandes Condesso**
 
-### Deployment
+Data Scientist / ML Engineer
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This website was designed and developed as part of the development of my own freelance brand, **SaltyData**.
 
-### `npm run build` fails to minify
+* GitHub: [@sofiafernandescd](https://github.com/sofiafernandescd)
+* SaltyData: [Website](#)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## License
+
+The source code of this repository may be reused, modified and adapted for other projects.
+
+However, **SaltyData is a registered trademark in Portugal**, and the SaltyData name, logo, visual identity, branding and associated original content are not included in this permission and may NOT be reused as part of another brand or project without authorization.
+
+In detail:
+
+* **Code:** reusable
+* **SaltyData brand:** reserved
+* **Logo and visual identity:** reserved
+* **Original content and copy:** reserved
+

@@ -1,25 +1,391 @@
-/* App.css */
+/* GLOBAL SETTINGS */
+html {
+  scroll-behavior: smooth; 
+}
+
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
   background-color: #f4f6f9;
-  color: #1a1a1a;
+  color: #333;
 }
 
-a {
-  text-decoration: none;
-  color: #0055a5;
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-.btn {
-  background-color: #0077cc;
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden; 
+}
+
+h2 {
+  color: #0a3d62;
+  margin-bottom: 20px;
+}
+
+/* NAVBAR */
+.top-bar {
+  background-color: #0a3d62;
   color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  display: inline-block;
-  margin-top: 15px;
+  padding: 8px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.btn:hover {
-  background-color: #0055a5;
+.navbar {
+  background-color: white;
+  padding: 12px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #dcdde1;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0a3d62;
+}
+
+.navbar .logo span {
+  color: #3c6382; 
+}
+
+.navbar nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #0a3d62;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.navbar a:hover {
+  color: #3c6382;
+}
+
+.btn-nav {
+  background-color: #0a3d62;
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+.btn-nav:hover {
+  background-color: #074166;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(120deg, #0a3d62, #3c6382);
+  padding: 45px 5%; /* Reduzido de 80px/60px para diminuir o excesso de margem vertical */
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+  max-width: 1000px; /* Aumentado de 800px para distribuir melhor o texto horizontalmente */
+  margin: 0 auto 15px auto;
+  line-height: 1.2;
+}
+
+.hero p {
+  font-size: 1.15rem;
+  opacity: 0.95;
+  max-width: 850px; /* Aumentado de 600px para o texto não quebrar em tantas linhas */
+  margin: 0 auto 25px auto;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #10b981;
+  color: white;
+  text-decoration: none;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+  transition: transform 0.2s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+}
+
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 5%;
+  background-color: white;
+  border-bottom: 1px solid #dcdde1;
+}
+
+.logos h3 {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.logos-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+  gap: 40px;       
+}
+
+.logos-grid img {
+  max-width: 140px; 
+  max-height: 50px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.6;
+  transition: all 0.3s;
+}
+
+.logos-grid img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* SERVICES */
+.services, .benefits {
+  padding: 60px 5%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.services h2, .benefits h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.service-card {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+  border: 1px solid #e1e8ed;
+}
+
+.service-card .icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.benefits {
+  background-color: #0a3d62;
+  color: white;
+  padding: 60px 5%;
+  border-radius: 8px;
+  max-width: 1100px;
+}
+
+.benefits h2 {
+  color: white;
+}
+
+.benefits-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.benefit-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 280px;
+  border-left: 4px solid #10b981;
+}
+
+/* CTA */
+.forms-wrapper {
+  display: flex;
+  gap: 40px;
+  padding: 60px 5%;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.forms-wrapper section {
+  flex: 1;
+  min-width: 320px;
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.contact-form form,
+.service-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #b2bec3;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+button {
+  background-color: #0a3d62;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #074166;
+}
+
+.btn-accent {
+  background-color: #3c6382;
+}
+
+.btn-accent:hover {
+  background-color: #0a3d62;
+}
+
+/* FOOTER */
+footer {
+  background-color: #0a3d62;
+  color: white;
+  padding: 40px 5% 20px 5%;
+  margin-top: 60px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.footer-brand h4, .footer-team h4 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 20px;
+  }
+  
+  .navbar nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .navbar a {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .top-bar {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .forms-wrapper {
+    padding: 30px 20px;
+    gap: 20px;
+  }
+
+  .forms-wrapper section {
+    padding: 20px;
+  }
+}
+
+
+.navbar-logo {
+  max-height: 100px; 
+  width: auto;
+  object-fit: contain;
+}
+
+
+.logos-grid img {
+  max-width: 600px;
+  max-height: 300px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+.logos-grid img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+
+
+
+
+
