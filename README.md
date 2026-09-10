@@ -1,5 +1,7 @@
 # SaltyData — Brand & Portfolio Website
 
+![SaltyData logo](./public/logo_salty.png)
+
 > Website developed for **SaltyData**, a freelance initiative focused on connecting real-world data collection with analysis, modelling and AI.
 
 [![Live Website](https://img.shields.io/badge/Live%20Website-SaltyData-0f766e?style=flat-square)](#)
