@@ -13,16 +13,7 @@
 
 This repository contains the website I designed and developed for **SaltyData**, my own freelancing brand.
 
-The goal was to create a simple, credible web presence for a data-focused business without making it look like a generic software consultancy. The website presents SaltyData's positioning, services and approach to working with real-world data, with a visual identity built around the idea of **surfacing intelligence from reality**.
-
 The project combines **brand design, frontend development and content structuring** into a single small web project.
-
-### What I wanted the website to communicate
-
-* A data-oriented business grounded in real-world problems
-* A practical connection between **field data and analytical systems**
-* A local and approachable alternative to large consulting companies
-* A visual identity that could later grow with the business
 
 ### Landing page
 
@@ -61,11 +52,6 @@ The website represents an early version of the SaltyData brand and may evolve al
 **Sofia Fernandes Condesso**
 
 Data Scientist / ML Engineer
-
-This website was designed and developed as part of the development of my own freelance brand, **SaltyData**.
-
-* GitHub: [@sofiafernandescd](https://github.com/sofiafernandescd)
-* SaltyData: [Website](#)
 
 ---
 
